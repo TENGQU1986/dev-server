@@ -1,5 +1,7 @@
-$brand-color: green;
-
-* {
-  color: $brand-color;
-}
+@import './base/settings';
+@import './base/base';
+@import './components/Header.scss';
+@import './components/container';
+@import './components/button';
+@import './components/widget';
+@import './components/option';
